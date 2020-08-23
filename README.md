@@ -9,7 +9,7 @@ This is a serial port controller running on a host machine
 connected to an Arduino with `landing` deployed. The serial
 port is hardcoded to `/dev/ttyUSB0`.
 
-`houston` listens for the `BEGIN` signal from the Arduino
+`houston` listens for the `READY` signal from the Arduino
 before sending the `TRAJECTORY` loaded from the data file.
 It then prints any `TELEMETRY` sent from the Arduino and
 waits for the `BEGIN` command to be entered into the CLI.
