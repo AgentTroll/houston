@@ -52,6 +52,7 @@ namespace houston {
          * removes it.
          */
         void pop_back() {
+            std::lock_guard<std::mutex> lock{mutex};
             delegate.pop_back();
         }
     };
