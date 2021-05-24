@@ -1,7 +1,7 @@
 # `houston`
 
 Simulated CLI controller software for 
-[`AgentTroll/landing`](https://github.com/AgentTroll/landing).
+[`caojohnny/landing`](https://github.com/caojohnny/landing).
 
 # Usage
 
@@ -45,7 +45,7 @@ TELEMETRY 10 26.59 0.00 0.00 152.16 0.00 0.00 34.93 0.00 0.00 154.25 0.00 0.00 3
 # Building
 
 ``` shell
-git clone https://github.com/AgentTroll/houston.git
+git clone https://github.com/caojohnny/houston.git
 cd houston
 mkdir build && cd build
 cmake .. && make
@@ -59,4 +59,4 @@ Built with [CLion]()
 
 Utilizes:
   
-  * [`serial`](https://github.com/AgentTroll/landing)
+  * [`serial`](https://github.com/caojohnny/landing)
