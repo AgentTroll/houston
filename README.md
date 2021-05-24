@@ -59,4 +59,4 @@ Built with [CLion]()
 
 Utilizes:
   
-  * [`serial`](https://github.com/caojohnny/landing)
+  * [`serial`](https://github.com/wjwwood/serial.git)
